@@ -390,7 +390,7 @@ label[for=password] {
     font-size: 40px;
 }
 #parallax {
-    background: url("../_img/parallax.jpg") 50% 0 no-repeat fixed;
+    background: url("../img/parallax.jpg") 50% 0 no-repeat fixed;
     height: 400px;
 }
 
@@ -455,7 +455,7 @@ label[for=password] {
     font-size: 18px;
 }
 #numbers .container {
-    background: url(../_img/num1.jpg) no-repeat;
+    background: url(../img/num1.jpg) no-repeat;
     text-align: center;
 }
 .number-text {
@@ -592,7 +592,7 @@ label[for=password] {
 
 /*#####################################################################################################################*/
 #contact .container {
-    background: url(../_img/contact.jpg) no-repeat;
+    background: url(../img/contact.jpg) no-repeat;
     width: 100%;
 }
 #contact .container .row h2 {
@@ -654,7 +654,7 @@ label[for=password] {
 /*#####################################################################################################################*/
 
 #footer {
-  background-image: url(../_img/footer_lodyas.png);
+  background-image: url(../img/footer_lodyas.png);
 }
 
 #footer .container .row {

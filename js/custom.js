@@ -7,5 +7,10 @@ $(window).load(function() {
  //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
  $('#parallax').parallax("50%", 0.1);
 
+ $('#menu').onePageNav({
+ 	currentClass: 'active',
+ 	scrollOffset: 30
+
+ });
 
 });

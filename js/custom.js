@@ -1,6 +1,6 @@
 $(window).load(function() {
 
-
+  $('.timer').countTo();
  //.parallax(xPosition, speedFactor, outerHeight) options:
  //xPosition - Horizontal position of the element
  //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling

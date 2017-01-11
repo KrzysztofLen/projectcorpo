@@ -62,9 +62,10 @@ section {
 /* HEADER *************************************/
 
 /*#####################################################################################################################*/
+
 #header {
     margin: 0;
-    background-color: #1d181f;
+    background-color: #2d2d2d;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -95,7 +96,7 @@ label[for=password] {
     background: transparent;
     border-radius: 0;
     color: #ffffff;
-    margin: 10px;
+    float: right;
 }
 #header .username {
     width: 200px;
@@ -108,11 +109,6 @@ label[for=password] {
 }
 #header .sign_in {
     background: #3498db;
-    background-image: -webkit-linear-gradient(top, #3498db, #1d6ea1);
-    background-image: -moz-linear-gradient(top, #3498db, #1d6ea1);
-    background-image: -ms-linear-gradient(top, #3498db, #1d6ea1);
-    background-image: -o-linear-gradient(top, #3498db, #1d6ea1);
-    background-image: linear-gradient(to bottom, #3498db, #1d6ea1);
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
@@ -121,17 +117,14 @@ label[for=password] {
     margin: 5px;
 }
 #header .sign_in:hover {
-    background: transparent;
-    text-decoration: none;
-    border: 1px solid #0f94db;
+  background: #eaeaea;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  color: #2d2d2d;
+  transition: 0.6s;
 }
 #header .log_in {
     background: #0e4763;
-    background-image: -webkit-linear-gradient(top, #0e4763, #061f26);
-    background-image: -moz-linear-gradient(top, #0e4763, #061f26);
-    background-image: -ms-linear-gradient(top, #0e4763, #061f26);
-    background-image: -o-linear-gradient(top, #0e4763, #061f26);
-    background-image: linear-gradient(to bottom, #0e4763, #061f26);
     font-family: Arial;
     color: #ffffff;
     font-size: 16px;
@@ -178,6 +171,11 @@ label[for=password] {
     padding: 0 10px;
     margin: 0;
 }
+
+.navbar-right {
+  margin-top: 15px!important;
+}
+
 #menu li {
     text-decoration: none;
     padding-left: 2px;
@@ -222,6 +220,33 @@ label[for=password] {
 #menu .container {
     padding: 20px;
 }
+
+.login-buttons {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+  display: inline;
+  top: 50%;
+  position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: -320px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
 
 /*#####################################################################################################################*/
 
@@ -767,4 +792,9 @@ label[for=password] {
   text-align: center;
   background: #1d181f;
   color: #fff;
+}
+
+
+.underline {
+  border-bottom: 3px solid #204156;
 }

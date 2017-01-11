@@ -13,4 +13,11 @@ $(window).load(function() {
 
  });
 
+ $(".header h1").mouseenter(function() {
+   $(this).toggleClass("underline");
+ })
+ .mouseleave(function() {
+ $(this).toggleClass("underline");
+ });
+
 });

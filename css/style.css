@@ -109,7 +109,7 @@ label[for=password] {
 }
 #header .sign_in {
     background: #3498db;
-    font-family: Arial;
+    font-family: 'Playfair Display', serif;
     color: #ffffff;
     font-size: 16px;
     padding: 4px 20px 4px 20px;
@@ -125,7 +125,7 @@ label[for=password] {
 }
 #header .log_in {
     background: #0e4763;
-    font-family: Arial;
+    font-family: 'Playfair Display', serif;
     color: #ffffff;
     font-size: 16px;
     padding: 4px 20px 4px 20px;
@@ -134,8 +134,13 @@ label[for=password] {
 #header .log_in:hover {
     background: transparent;
     text-decoration: none;
-    border: 1px solid #204156
+    border: 1px solid #204156;
+    background: #eaeaea;
+    transition: 0.6s;
+    color: #2d2d2d;
 }
+
+
 
 /*#####################################################################################################################*/
 
@@ -233,20 +238,83 @@ label[for=password] {
   position: relative;
 }
 
-/* style icon */
-.inner-addon .glyphicon {
-  position: absolute;
-  padding: 10px;
-  pointer-events: none;
+
+
+@media (min-width: 1200px) {
+  /* style icon */
+  .inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+    color: #ccc;
+    font-size: 19px;
+  }
+
+  /* align icon */
+  .inner-addon .glyphicon {
+    right: -355px;
+  }
 }
 
-/* align icon */
-.left-addon .glyphicon  { left:  0px;}
-.right-addon .glyphicon { right: -320px;}
+@media (min-width: 993px) and (max-width: 1199px) {
+  /* style icon */
+  .inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+    color: #ccc;
+    font-size: 19px;
+  }
 
-/* add padding  */
-.left-addon input  { padding-left:  30px; }
-.right-addon input { padding-right: 30px; }
+  /* align icon */
+  .inner-addon .glyphicon  {
+    top: 42px;
+    right: 250px;
+  }
+
+  #header input[name="search"] {
+    width: 60%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* style icon */
+  .inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+    color: #ccc;
+    font-size: 19px;
+  }
+
+  /* align icon */
+  .inner-addon .glyphicon  {
+    top: 42px;
+    right: 265px;
+  }
+
+  #header input[name="search"] {
+    width: 60%;
+    float: left;
+  }
+
+  .login-buttons {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .login-buttons {
+    margin: 0 auto;
+  }
+
+  .inner-addon .glyphicon {
+    color: #ccc;
+    top: 47px;
+    text-align: right;
+    float: right;
+    right: 25px;
+    font-size: 25px;
+  }
+}
 
 /*#####################################################################################################################*/
 

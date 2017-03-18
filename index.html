@@ -8,20 +8,20 @@
 
     <title>Business-corpo site</title>
 
-    <!-- Własny CSS -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="css/animate.css" type="text/css">
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="icons/css/font-awesome.min.css">
 
 
-    <!-- Fonty -->
+    <!-- Google fonts-->
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -35,7 +35,7 @@
 
 <body>
 
-    <!-- header logowanie wyszukiwanie  -->
+    <!-- Section login system + search field  -->
     <section id="header">
         <div class="container">
             <div class="row">
@@ -66,24 +66,16 @@
         </div>
     </section>
 
-    <!-- Menu nawigacyjne + logo strony -->
 
-
+    <!-- Navigation + site logo -->
     <nav id="menu" class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
                 <i class="fa fa-university" aria-hidden="true"></i><span>BGB Industries, Inc.</span>
             </div>
             <!-- /.navbar header -->
 
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="active" href="#">Home</a></li>
                     <li><a href="#news">News</a></li>
@@ -94,8 +86,6 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <!-- / .nav navbar-nav navbar-right -->
-
-
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -120,8 +110,8 @@
         </div>
     </div>
 
-    <!-- SLIDER -->
 
+    <!-- Slider -->
     <section id="slider" class="carousel slide" date-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#slider" data-slide-to="0" class="active"></li>
@@ -173,8 +163,7 @@
     <!-- /slider/ -->
 
 
-    <!-- News`y -->
-
+    <!-- News section -->
     <section id="news">
         <div class="header">
             <h1>News</h1>
@@ -217,8 +206,8 @@
     </section>
     <!-- /news'y/ -->
 
-    <!-- Parallax -->
 
+    <!-- Parallax section -->
     <section id="parallax" class="parallax">
         <div class="parallax-body">
             <h2>Lorem ipsum dolor.</h2>
@@ -227,8 +216,7 @@
     </section>
 
 
-    <!-- About -->
-
+    <!-- About section -->
     <section id="about">
         <div class="header">
             <h1>About us</h1>
@@ -254,8 +242,8 @@
             </div>
         </div>
 
-        <!-- Stats -->
 
+        <!-- Stats section -->
         <div id="numbers">
             <div class="container">
                 <div class="row">
@@ -293,10 +281,8 @@
     </section>
 
 
-    <!-- Team -->
-
+    <!-- Team section -->
     <section id="team">
-
         <div class="header">
             <h1>Our Team</h1>
             <p>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit</p>
@@ -360,8 +346,8 @@
     </section>
     <!--===== /TEAM/ =====-->
 
-    <!-- Pricing tables -->
 
+    <!-- Pricing tables section -->
     <section id="pricing">
         <div class="header">
             <h1>Pricing tables</h1>
@@ -447,8 +433,8 @@
         <!-- /container -->
     </section>
 
-    <!-- TESTIMONIALS -->
 
+    <!-- Testimonials section -->
     <section id="testimonials">
         <div class="header">
             <h1>Testimonials</h1>
@@ -510,10 +496,7 @@
     </section>
 
 
-
-    <!-- CONTACT -->
-
-
+    <!-- Contact section -->
     <section id="contact">
         <div class="header">
             <h1>Contact</h1>
@@ -541,19 +524,25 @@
                     <div class="contact-detail">
 
                         <form action="index.html" method="post">
+                          <div class="form-group">
                             <input type="text" class="form-control" name="Name" id="Name" placeholder="Name"><br>
+                          </div>
+                          <div class="form-group">
                             <input type="email" class="form-control" name="Email" id="Email" placeholder="Email"><br>
-                            <textarea class="form-control" placeholder="Message here"></textarea><br>
-
-                            <input type="submit" class="btn btn-default" value="Contact us now!">
+                          </div>
+                          <div class="form-group">
+                            <textarea class="form-control" placeholder="Message here"></textarea>
+                          </div>
+                          <div class="form-group">
+                            <input type="submit" class="btn btn-default submitButton" value="Contact us now!">
+                          </div>
                         </form>
                     </div>
                 </div>
     </section>
 
 
-    <!-- footer -->
-
+    <!-- Footer -->
     <footer id="footer">
         <div class="container">
             <div class="row">

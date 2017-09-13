@@ -1,6 +1,6 @@
 {
   "name": "javascript-starter-kit",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",

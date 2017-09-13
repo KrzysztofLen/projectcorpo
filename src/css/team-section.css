@@ -1,0 +1,43 @@
+/* ##################################################################################################################### */
+
+/* TEAM ****************************************/
+
+/* ##################################################################################################################### */
+
+#team .container {
+  text-align: center;
+}
+
+#team .person {
+  padding-bottom: 10px;
+}
+
+#team .person:hover {
+  -webkit-box-shadow: 7px 10px 20px -12px rgba(104, 104, 107, 0.66);
+  -moz-box-shadow: 7px 10px 20px -12px rgba(104, 104, 107, 0.66);
+  box-shadow: 7px 10px 20px -12px rgba(104, 104, 107, 0.66);
+  cursor: pointer;
+}
+
+#team .person img {
+  border-radius: 25px;
+}
+
+#team h4 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+#team p {
+  font-size: 12px;
+  color: #555;
+}
+
+.team-social i:hover {
+  -webkit-animation: rubberBand 0.5s;
+  animation: rubberBand 0.5s;
+}
+
+#team .team-social {
+  font-size: 40px;
+}

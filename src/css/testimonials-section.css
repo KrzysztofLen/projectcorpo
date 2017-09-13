@@ -1,0 +1,39 @@
+/* ##################################################################################################################### */
+
+/* TESTIMONIALS ****************************************/
+
+/* ##################################################################################################################### */
+
+#testimonials .container {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 300px;
+}
+
+#testimonials .container p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#testimonials .container .item {
+  margin-top: 35px;
+}
+
+.testimonials_slider {
+  text-align: center;
+  word-break: break-all;
+}
+
+.testimonials_slider footer {
+  background: transparent;
+}
+
+#testimonials blockquote {
+  border: none;
+}
+
+#testimonials .carousel-control.left,
+#testimonials .carousel-control.right {
+  background-image: none !important;
+  color: #204156;
+}

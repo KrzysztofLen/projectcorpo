@@ -1,0 +1,103 @@
+/* ##################################################################################################################### */
+
+/* SLIDER ****************************************/
+
+/* ##################################################################################################################### */
+
+#slider {
+  margin-top: 0 !important;
+}
+
+#slider .call_us_now {
+  border-radius: 5px;
+  padding: 14px 38px;
+  font-size: 15px;
+  color: #2d2d2d;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #2d2d2d;
+  background: #fff;
+}
+
+#slider .call_us_now i {
+  padding-right: 10px;
+}
+
+#slider .call_us_now:hover {
+  border: 1px solid #204156;
+  color: #fff;
+  background: #204156ff;
+  transition: 0.4s;
+}
+
+#slider .carousel-caption {
+  text-align: left;
+  transition: none;
+  line-height: 35px;
+  border-width: 0;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+
+#slider .carousel-caption span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#slider .carousel-caption h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* element poza oknem przeglądarki */
+#phone {
+  margin-top: 350px;
+  width: 400px;
+  line-height: 30px;
+  position: fixed;
+  left: -180px;
+  transition: 2s;
+  z-index: 99999;
+}
+
+#phone:hover {
+  left: 0;
+}
+
+#phone-content {
+  float: left;
+  width: 180px;
+}
+
+#phone-ico {
+  float: left;
+}
+
+#block-content {
+  background-color: #f4f2ec;
+  border: 3px solid #204156;
+  border-left: none;
+  border-radius: 10px;
+}
+
+#content {
+  margin-top: 25px;
+  padding: 5px;
+  height: 100px;
+  overflow: auto;
+  text-align: center;
+  font-size: 1em;
+}
+
+#holder {
+  margin-top: 30%;
+}
+
+#holder:hover {
+  cursor: pointer;
+  -webkit-animation: shake 0.8s;
+  animation: shake 0.8s;
+}

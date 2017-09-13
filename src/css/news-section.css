@@ -1,0 +1,48 @@
+/* ##################################################################################################################### */
+
+/* NEWSY ****************************************/
+
+/* ##################################################################################################################### */
+
+#news {
+  font-size: 1em;
+  text-align: center;
+}
+
+.articles {
+  cursor: pointer;
+  padding: 20px 10px;
+}
+
+.articles .fa {
+  font-size: 74px;
+}
+
+.articles .fa:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #204156;
+}
+
+.articles p {
+  font-size: 12px;
+  color: #8a90a6;
+}
+
+.more {
+  background-color: transparent;
+  color: #2d2d2d;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid #204156;
+  padding: 8px 16px;
+  margin-top: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.more:hover {
+  -webkit-animation: tada 0.8s;
+  animation: tada 0.8s;
+}

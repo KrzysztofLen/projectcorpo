@@ -1,0 +1,70 @@
+/* ##################################################################################################################### */
+
+/* PRICING TABLES *************************************/
+
+/* ##################################################################################################################### */
+
+.panel-heading {
+  line-height: 20px;
+  color: #555;
+}
+
+.panel-heading h3 {
+  font-size: 22px;
+  margin: 0 0 4px;
+}
+
+.byline {
+  font-size: 13px;
+}
+
+.price {
+  font-size: 34px;
+  color: #337ab7;
+}
+
+.price small {
+  font-size: 20px;
+}
+
+.col-md-4 .featured {
+  border: 1px solid #337ab7;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
+}
+
+.col-md-4 .featured .panel-heading {
+  background-color: #337ab7;
+}
+
+.col-md-4 .featured .panel-heading h3 {
+  color: #fff;
+}
+
+.col-md-4 .featured .panel-heading .byline {
+  color: #fff;
+}
+
+.col-md-4 .panel-footer.featured {
+  background: #337ab7;
+}
+
+.col-md-4 .panel-footer.featured .btn-pricing {
+  border: 2px solid #fff;
+}
+
+.col-md-4 .panel-footer.featured .btn-pricing:hover {
+  background-color: #fff;
+  color: #337ab7;
+}
+
+.col-md-4 .btn-pricing {
+  background: #337ab7;
+  color: #fff;
+  border: 0;
+}
+
+.col-md-4 .btn-pricing:hover {
+  color: #fff;
+  background-color: #245782;
+  border-color: #adadad;
+}

@@ -1,0 +1,174 @@
+/* ##################################################################################################################### */
+
+/* MENU NAWIGACYJNE ***************************/
+
+/* ##################################################################################################################### */
+
+.menu {
+  width: 100%;
+  height: 100px;
+  text-align: right;
+  background: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 1) 19%, rgba(255, 255, 255, 1) 24%, rgba(255, 255, 255, 1) 28%, rgba(255, 255, 255, 0.47) 66%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 1) 19%, rgba(255, 255, 255, 1) 24%, rgba(255, 255, 255, 1) 28%, rgba(255, 255, 255, 0.47) 66%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 1) 19%, rgba(255, 255, 255, 1) 24%, rgba(255, 255, 255, 1) 28%, rgba(255, 255, 255, 0.47) 66%, rgba(255, 255, 255, 0) 100%);
+  filter: progid: dximagetransform.microsoft.gradient(startColorstr='#fff', endColorstr='#00ffffff', GradientType=1);
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+.navbar-default {
+  border: 0 !important;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.navbar-right {
+  margin-top: 15px !important;
+}
+
+#menu li {
+  text-decoration: none;
+  padding-left: 2px;
+  text-align: right;
+}
+
+#menu ul li a {
+  padding: 8px 18px;
+  font-size: 1em;
+  color: #1a7afc;
+  border-radius: 4px;
+}
+
+#menu ul li a:hover {
+  border: 1px solid #204156;
+  bottom: 2px;
+  color: #204156;
+  position: relative;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  box-shadow: 0 6px 6px -6px #666;
+}
+
+#menu ul li a.active {
+  background-color: #204156;
+  color: #fff;
+}
+
+#menu ul li a.active:hover {
+  background-color: transparent;
+  color: #204156;
+}
+
+.menu img {
+  float: left;
+  margin-left: 250px;
+  margin-top: 0;
+}
+
+#menu i.fa {
+  font-size: 60px;
+}
+
+#menu span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #555;
+}
+
+#menu .container {
+  padding: 20px;
+}
+
+.login-buttons {
+  display: inline-block;
+  margin: 0 50px;
+}
+
+/* enable absolute positioning */
+.inner-addon {
+  display: inline;
+  top: 50%;
+  position: relative;
+}
+
+@media (min-width: 1200px) {
+  /* style icon */
+  .inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+    color: #ccc;
+    font-size: 19px;
+  }
+
+  /* align icon */
+  .inner-addon .glyphicon {
+    right: -330px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1199px) {
+  /* style icon */
+  .inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+    color: #ccc;
+    font-size: 19px;
+  }
+
+  /* align icon */
+  .inner-addon .glyphicon {
+    top: 42px;
+    right: 250px;
+  }
+
+  #header input[name="search"] {
+    width: 60%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* style icon */
+  .inner-addon .glyphicon {
+    position: absolute;
+    pointer-events: none;
+    color: #ccc;
+    font-size: 19px;
+  }
+
+  /* align icon */
+  .inner-addon .glyphicon {
+    top: 42px;
+    right: 265px;
+  }
+
+  #header input[name="search"] {
+    width: 60%;
+    float: left;
+  }
+
+  .login-buttons {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .login-buttons {
+    margin: 0 auto;
+  }
+
+  .inner-addon .glyphicon {
+    color: #ccc;
+    top: 47px;
+    text-align: right;
+    float: right;
+    right: 25px;
+    font-size: 25px;
+  }
+}

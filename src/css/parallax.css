@@ -1,0 +1,32 @@
+/* ##################################################################################################################### */
+
+/* PARALLAX *************************************/
+
+/* ##################################################################################################################### */
+
+.parallax {
+  color: #000;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 100%;
+  display: table;
+}
+
+.parallax-body {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.parallax-body h2 {
+  color: #000;
+  font-size: 40px;
+}
+
+#parallax {
+  background: url('../assets/images/parallax.jpg') 50% 0 no-repeat fixed;
+  height: 400px;
+}

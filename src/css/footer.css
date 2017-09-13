@@ -1,0 +1,112 @@
+/* ##################################################################################################################### */
+
+/* FOOTER ****************************************/
+
+/* ##################################################################################################################### */
+
+#footer {
+  background-image: url('../assets/images/footer_lodyas.png');
+}
+
+#footer .container .row {
+  margin-bottom: 25px;
+}
+
+#footer address {
+  text-align: left;
+}
+
+#footer .container .row h4 {
+  padding: 40px 0 20px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#footer .container .row p {
+  display: inline;
+  color: #ccc;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  padding-left: 15px;
+}
+
+#footer .container .row .fa {
+  margin: 15px 0;
+  color: #ccc;
+  font-size: 20px;
+}
+
+#footer .container .row .links li {
+  list-style-type: none;
+  color: #ccc;
+  padding: 10px 0;
+}
+
+#footer .container .row .links li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ccc;
+  padding: 15px;
+}
+
+#footer #find-us i {
+  width: 50px;
+  height: 50px;
+  background: #555;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+}
+
+#footer #find-us {
+  padding: 0;
+}
+
+#footer #find-us li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#footer #find-us .fa:hover {
+  background: #eee;
+  color: #337ab7;
+}
+
+#footer .container .row .newsletter p {
+  color: #ccc;
+  padding: 10px 0;
+  display: block;
+}
+
+#footer .container .row .newsletter #newsletter {
+  border-radius: 0;
+  border: 1px solid #ccc;
+  background: transparent;
+  width: 100%;
+}
+
+.newsletter .newsletter-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  background: #337ab7;
+  line-height: 46px;
+  border-radius: 0;
+  width: 49px;
+  height: 46px;
+}
+
+#footer .container .row .newsletter .newsletter-btn .fa {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#footer address i {
+  float: left;
+}

@@ -10,12 +10,14 @@ import ReactDOM from 'react-dom'; // import reactDOM
 import Carousel from './app/carousel.component.jsx'; // import the main app component
 import Phone from './app/phone.component.jsx'; // import the main app component
 import Team from './app/team.component.jsx'; // import the main app component
+import Search from './app/search.component.jsx';
 /*eslint-enable no-unused-vars*/
 
 /*eslint-disable*/
 ReactDOM.render(<Carousel />, document.getElementById('slider'));
 ReactDOM.render(<Phone />, document.getElementById('holder'));
 ReactDOM.render(<Team />, document.getElementById('team'));
+ReactDOM.render(<Search/>, document.getElementById('search-engine'));
 /*eslint-enable*/
 
 //TODO Implement generate index.html in dist folder. Include minification CSS and generate into dist.

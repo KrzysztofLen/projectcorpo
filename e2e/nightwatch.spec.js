@@ -27,6 +27,13 @@ module.exports = {
     browser.end();
   },
 
+  'Is section parallax exist?': (browser) => {
+    browser.url(TARGET_PAGE_URL);
+    browser.assert.visible('#parallax');
+    browser.assert.cssClassPresent("#parallax", "parallax");
+    browser.end();
+  },
+
   'Is header contains correct text?': (browser) => {
     browser.url(TARGET_PAGE_URL);
     browser.waitForElementVisible('body', 3000);

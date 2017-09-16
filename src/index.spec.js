@@ -31,7 +31,7 @@ describe('index.html', () => {
     });
   });
 
-  it('it should have a nav tag', () => {
+  it('it should have a nav tag', (done) => {
     jsdom.env(index, function (err, window) {
       const nav = window.document.getElementsByTagName('nav');
       expect(nav.length).to.equal(1);

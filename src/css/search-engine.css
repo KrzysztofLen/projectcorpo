@@ -1,0 +1,99 @@
+.search-engine {
+  background-color: #f7f8f8;
+  color: #586868;
+  border-radius: 4px;
+}
+
+.autocomplete {
+  position: relative;
+  overflow: hidden;
+  margin: 25px 0;
+}
+
+.autocomplete .autocomplete-input {
+  position: relative;
+  padding: 0 60px;
+}
+
+.autocomplete .autocomplete-input::before {
+  position: absolute;
+  top: 50%;
+  left: 2em;
+  width: 60px;
+  height: 60px;
+  margin: -30px 0 0 0;
+  content: '';
+  pointer-events: none;
+  background-image: url(http://dev.devolk.pl/demo/search-icon.svg);
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.autocomplete input,
+.autocomplete .autocomplete-tip {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  padding: 0 0 0 40px;
+  height: 60px;
+  line-height: 60px;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.autocomplete .autocomplete-tip {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  color: #edf1f0;
+  text-shadow: none;
+}
+
+.autocomplete-list {
+  padding: 0;
+}
+
+.autocomplete-list li {
+  display: block;
+  counter-increment: number;
+  padding: 18px 0 18px 20px;
+  cursor: pointer;
+  font-size: 0.9em;
+  overflow: hidden;
+}
+
+.autocomplete-list li::before {
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  color: #d8d8d8;
+  content: counter(number);
+}
+
+.autocomplete-list li:hover {
+  background-color: #ebefef;
+}
+
+.autocomplete-list li:hover::before {
+  color: #586868;
+}
+
+.autocomplete-list li.hide {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  left: -9999px;
+}
+
+.autocomplete-message {
+  padding: 0 100px;
+  font-style: italic;
+  font-size: 0.9em;
+  color: #d8d8d8;
+  display: none;
+}

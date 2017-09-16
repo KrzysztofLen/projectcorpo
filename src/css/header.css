@@ -19,12 +19,6 @@ label[for=password] {
   color: #fff;
 }
 
-#header input {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
 #header input[name=username] {
   box-sizing: border-box;
   padding: 2px 2px 5px 30px;

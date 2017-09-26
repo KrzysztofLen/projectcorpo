@@ -11,3 +11,4 @@ Upgrade app into version 2.0
 -removed unecessery files
 - added javascript-starter-kit
 - units and e2e tests
+- CSS variables

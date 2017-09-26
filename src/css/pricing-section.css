@@ -4,9 +4,18 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --white: #fff;
+  --light-theme-color: #337ab7;
+  --medium-gray: #555;
+  --hover-gray: #adadad;
+  --pricing-bg: #245782;
+}
+
 .panel-heading {
   line-height: 20px;
-  color: #555;
+  color: var(--medium-gray);
 }
 
 .panel-heading h3 {
@@ -20,7 +29,7 @@
 
 .price {
   font-size: 34px;
-  color: #337ab7;
+  color: var(--light-theme-color);
 }
 
 .price small {
@@ -28,43 +37,43 @@
 }
 
 .col-md-4 .featured {
-  border: 1px solid #337ab7;
+  border: 1px solid var(--light-theme-color);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
 }
 
 .col-md-4 .featured .panel-heading {
-  background-color: #337ab7;
+  background-color: var(--light-theme-color);
 }
 
 .col-md-4 .featured .panel-heading h3 {
-  color: #fff;
+  color: var(--white);
 }
 
 .col-md-4 .featured .panel-heading .byline {
-  color: #fff;
+  color: var(--white);
 }
 
 .col-md-4 .panel-footer.featured {
-  background: #337ab7;
+  background: var(--light-theme-color);
 }
 
 .col-md-4 .panel-footer.featured .btn-pricing {
-  border: 2px solid #fff;
+  border: 2px solid var(--white);
 }
 
 .col-md-4 .panel-footer.featured .btn-pricing:hover {
-  background-color: #fff;
-  color: #337ab7;
+  background-color: var(--white);
+  color: var(--light-theme-color);
 }
 
 .col-md-4 .btn-pricing {
-  background: #337ab7;
-  color: #fff;
+  background: var(--light-theme-color);
+  color: var(--white);
   border: 0;
 }
 
 .col-md-4 .btn-pricing:hover {
-  color: #fff;
-  background-color: #245782;
-  border-color: #adadad;
+  color: var(--white);
+  background-color: var(--pricing-bg);
+  border-color: var(--hover-gray);
 }

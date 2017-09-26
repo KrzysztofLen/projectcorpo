@@ -4,19 +4,30 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --white: #fff;
+  --light-theme-color: #337ab7;
+  --light-gray: #ccc;
+  --dark-gray: #2d2d2d;
+  --login-button: #0e4763;
+  --login-button-hover: #204156;
+  --sign-in-hover: #eaeaea;
+}
+
 #header {
   margin: 0;
-  background-color: #2d2d2d;
+  background-color: var(--dark-gray);
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 label[for=username] {
-  color: #fff;
+  color: var(--white);
 }
 
 label[for=password] {
-  color: #fff;
+  color: var(--white);
 }
 
 #header input[name=username] {
@@ -31,12 +42,12 @@ label[for=password] {
 
 #header input[name=search] {
   border-top: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--light-gray);
   border-left: none;
   border-right: none;
   background: transparent;
   border-radius: 0;
-  color: #fff;
+  color: var(--white);
   float: right;
 }
 
@@ -53,9 +64,9 @@ label[for=password] {
 }
 
 #header .sign_in {
-  background: #3498db;
+  background: var(--light-theme-color);
   font-family: 'Playfair Display', serif;
-  color: #fff;
+  color: var(--white);
   font-size: 16px;
   padding: 4px 20px;
   text-decoration: none;
@@ -63,17 +74,17 @@ label[for=password] {
 }
 
 #header .sign_in:hover {
-  background: #eaeaea;
+  background: var(--sign-in-hover);
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  color: #2d2d2d;
+  border: 1px solid var(--sign-in-hover);
+  color: var(--dark-gray);
   transition: 0.6s;
 }
 
 #header .log_in {
-  background: #0e4763;
+  background: var(--login-button);
   font-family: 'Playfair Display', serif;
-  color: #fff;
+  color: var(--white);
   font-size: 16px;
   padding: 4px 20px;
   text-decoration: none;
@@ -81,9 +92,9 @@ label[for=password] {
 
 #header .log_in:hover {
   text-decoration: none;
-  border: 1px solid #204156;
-  background: #eaeaea;
+  border: 1px solid var(--login-button-hover);
+  background: var(--sign-in-hover);
   transition: 0.6s;
-  color: #2d2d2d;
+  color: var(--dark-gray);
 }
 

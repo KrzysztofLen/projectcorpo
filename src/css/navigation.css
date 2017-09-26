@@ -4,6 +4,15 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --white: #fff;
+  --link-color: #1a7afc;
+  --light-gray: #ccc;
+  --theme-color: #204156;
+  --box-shadow-gray: #666;
+}
+
 .menu {
   width: 100%;
   height: 100px;
@@ -41,28 +50,28 @@
 #menu ul li a {
   padding: 8px 18px;
   font-size: 1em;
-  color: #1a7afc;
+  color: var(--link-color);
   border-radius: 4px;
 }
 
 #menu ul li a:hover {
-  border: 1px solid #204156;
+  border: 1px solid var(--theme-color);
   bottom: 2px;
-  color: #204156;
+  color: var(--theme-color);
   position: relative;
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  box-shadow: 0 6px 6px -6px #666;
+  box-shadow: 0 6px 6px -6px var(--box-shadow-gray);
 }
 
 #menu ul li a.active {
-  background-color: #204156;
-  color: #fff;
+  background-color: var(--theme-color);
+  color: var(--white);
 }
 
 #menu ul li a.active:hover {
   background-color: transparent;
-  color: #204156;
+  color: var(--theme-color);
 }
 
 .menu img {
@@ -78,7 +87,7 @@
 #menu span {
   font-size: 30px;
   font-weight: bold;
-  color: #555;
+  color: var(--box-shadow-gray);
 }
 
 #menu .container {
@@ -102,7 +111,7 @@
   .inner-addon .glyphicon {
     position: absolute;
     pointer-events: none;
-    color: #ccc;
+    color: var(--light-gray);
     font-size: 19px;
   }
 
@@ -117,7 +126,7 @@
   .inner-addon .glyphicon {
     position: absolute;
     pointer-events: none;
-    color: #ccc;
+    color: var(--light-gray);
     font-size: 19px;
   }
 
@@ -138,7 +147,7 @@
   .inner-addon .glyphicon {
     position: absolute;
     pointer-events: none;
-    color: #ccc;
+    color: var(--light-gray);
     font-size: 19px;
   }
 
@@ -164,7 +173,7 @@
   }
 
   .inner-addon .glyphicon {
-    color: #ccc;
+    color: var(--light-gray);
     top: 47px;
     text-align: right;
     float: right;

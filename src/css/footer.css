@@ -4,6 +4,15 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --white: #fff;
+  --light-theme-color: #337ab7;
+  --light-gray: #ccc;
+  --medium-gray: #555;
+  --hover: #eee;
+}
+
 #footer {
   background-image: url('../assets/images/footer_lodyas.png');
 }
@@ -18,14 +27,14 @@
 
 #footer .container .row h4 {
   padding: 40px 0 20px;
-  color: #fff;
+  color: var(--white);
   font-weight: bold;
   font-size: 20px;
 }
 
 #footer .container .row p {
   display: inline;
-  color: #ccc;
+  color: var(--light-gray);
   font-size: 16px;
   font-family: 'Arial', sans-serif;
   padding-left: 15px;
@@ -33,27 +42,27 @@
 
 #footer .container .row .fa {
   margin: 15px 0;
-  color: #ccc;
+  color: var(--light-gray);
   font-size: 20px;
 }
 
 #footer .container .row .links li {
   list-style-type: none;
-  color: #ccc;
+  color: var(--light-gray);
   padding: 10px 0;
 }
 
 #footer .container .row .links li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #ccc;
+  color: var(--light-gray);
   padding: 15px;
 }
 
 #footer #find-us i {
   width: 50px;
   height: 50px;
-  background: #555;
+  background: var(--medium-gray);
   text-align: center;
   line-height: 50px;
   display: inline-block;
@@ -73,19 +82,19 @@
 }
 
 #footer #find-us .fa:hover {
-  background: #eee;
-  color: #337ab7;
+  background: var(--hover);
+  color: var(--light-theme-color);
 }
 
 #footer .container .row .newsletter p {
-  color: #ccc;
+  color: var(--light-gray);
   padding: 10px 0;
   display: block;
 }
 
 #footer .container .row .newsletter #newsletter {
   border-radius: 0;
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-gray);
   background: transparent;
   width: 100%;
 }
@@ -95,7 +104,7 @@
   top: 0;
   right: 0;
   font-size: 18px;
-  background: #337ab7;
+  background: var(--light-theme-color);
   line-height: 46px;
   border-radius: 0;
   width: 49px;

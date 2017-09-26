@@ -4,6 +4,14 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --white: #fff;
+  --theme-color: #204156;
+  --dark-gray: #2d2d2d;
+  --articles-text: #8a90a6;
+}
+
 #news {
   font-size: 1em;
   text-align: center;
@@ -23,20 +31,20 @@
   -moz-transform: scale(1.2);
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #204156;
+  color: var(--theme-color);
 }
 
 .articles p {
   font-size: 12px;
-  color: #8a90a6;
+  color: var(--articles-text);
 }
 
 .more {
   background-color: transparent;
-  color: #2d2d2d;
+  color: var(--dark-gray);
   cursor: pointer;
   border-radius: 4px;
-  border: 2px solid #204156;
+  border: 2px solid var(--theme-color);
   padding: 8px 16px;
   margin-top: 20px;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);

@@ -1,6 +1,15 @@
+/* COLORS */
+:root {
+  --search-white: #f7f8f8;
+  --search-font-color: #586868;
+  --search-autocomplete-color: #edf1f0;
+  --search-automoplete-message-color: #d8d8d8;
+  --search-list-color: #ebefef;
+}
+
 .search-engine {
-  background-color: #f7f8f8;
-  color: #586868;
+  background-color: var(--search-white);
+  color: var(--search-font-color);
   border-radius: 4px;
 }
 
@@ -50,7 +59,7 @@
   position: absolute;
   z-index: 1;
   top: 0;
-  color: #edf1f0;
+  color: var(--search-autocomplete-color);
   text-shadow: none;
 }
 
@@ -71,16 +80,16 @@
   display: inline-block;
   width: 80px;
   text-align: center;
-  color: #d8d8d8;
+  color: var(--search-automoplete-message-color);
   content: counter(number);
 }
 
 .autocomplete-list li:hover {
-  background-color: #ebefef;
+  background-color: var(--search-list-color);
 }
 
 .autocomplete-list li:hover::before {
-  color: #586868;
+  color: var(--search-font-color);
 }
 
 .autocomplete-list li.hide {
@@ -94,6 +103,6 @@
   padding: 0 100px;
   font-style: italic;
   font-size: 0.9em;
-  color: #d8d8d8;
+  color: var(--search-automoplete-message-color);
   display: none;
 }

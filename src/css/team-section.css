@@ -4,6 +4,11 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --medium-gray: #555;
+}
+
 #team .container {
   text-align: center;
 }
@@ -30,7 +35,7 @@
 
 #team p {
   font-size: 12px;
-  color: #555;
+  color: var(--medium-gray);
 }
 
 .team-social i:hover {

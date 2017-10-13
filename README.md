@@ -1,6 +1,8 @@
 # Project Corpo
 
 [![Build Status](https://travis-ci.org/KrzysztofLen/projectcorpo.svg?branch=master)](https://travis-ci.org/KrzysztofLen/projectcorpo)
+[![Build status](https://ci.appveyor.com/api/projects/status/jua0yww1vx0jr9wc?svg=true)](https://ci.appveyor.com/project/KrzysztofLen/projectcorpo)
+
 
 HTML, CSS, BOOTSTRAP, RWD
 

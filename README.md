@@ -1,5 +1,7 @@
 # Project Corpo
 
+[![Build Status](https://travis-ci.org/KrzysztofLen/projectcorpo.svg?branch=master)](https://travis-ci.org/KrzysztofLen/projectcorpo)
+
 HTML, CSS, BOOTSTRAP, RWD
 
 Reupload files 18.03.2017

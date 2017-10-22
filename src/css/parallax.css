@@ -4,8 +4,13 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --black: #000;
+}
+
 .parallax {
-  color: #000;
+  color: var(--black);
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
@@ -22,7 +27,7 @@
 }
 
 .parallax-body h2 {
-  color: #000;
+  color: var(--black);
   font-size: 40px;
 }
 

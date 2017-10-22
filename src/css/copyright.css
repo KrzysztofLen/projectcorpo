@@ -4,10 +4,17 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --background-color: #1d181f;
+  --white: #fff;
+  --theme-color: #204156;
+}
+
 .copyright_container {
   text-align: center;
-  background: #1d181f;
-  color: #fff;
+  background: var(--background-color);
+  color: var(--white);
   margin: 0;
 }
 
@@ -16,5 +23,5 @@
 }
 
 .underline {
-  border-bottom: 3px solid #204156;
+  border-bottom: 3px solid var(--theme-color);
 }

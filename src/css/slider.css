@@ -4,6 +4,14 @@
 
 /* ##################################################################################################################### */
 
+/* COLORS */
+:root {
+  --dark-gray: #2d2d2d;
+  --white: #fff;
+  --theme-color: #204156;
+  --hover-bg: #f4f2ec;
+}
+
 #slider {
   margin-top: 0 !important;
 }
@@ -12,11 +20,11 @@
   border-radius: 5px;
   padding: 14px 38px;
   font-size: 15px;
-  color: #2d2d2d;
+  color: var(--dark-gray);
   margin-top: 15px;
   margin-bottom: 15px;
-  border: 1px solid #2d2d2d;
-  background: #fff;
+  border: 1px solid var(--dark-gray);
+  background: var(--white);
 }
 
 #slider .call_us_now i {
@@ -24,9 +32,9 @@
 }
 
 #slider .call_us_now:hover {
-  border: 1px solid #204156;
-  color: #fff;
-  background: #204156ff;
+  border: 1px solid var(--theme-color);
+  color: var(--white);
+  background: var(--theme-color);
   transition: 0.4s;
 }
 
@@ -77,8 +85,8 @@
 }
 
 #block-content {
-  background-color: #f4f2ec;
-  border: 3px solid #204156;
+  background-color: var(--hover-bg);
+  border: 3px solid var(--theme-color);
   border-left: none;
   border-radius: 10px;
 }

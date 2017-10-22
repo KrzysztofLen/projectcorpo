@@ -1,0 +1,24 @@
+/* COLORS */
+:root {
+  --white: #fff;
+  --black: #000;
+  --link-color: #1a7afc;
+  --light-theme-color: #337ab7;
+  --light-gray: #ccc;
+  --medium-gray: #555;
+  --hover: #eee;
+  --dark-gray: #2d2d2d;
+  --theme-color: #204156;
+  --box-shadow-gray: #666;
+  --background-color: #1d181f;
+  --headers-color: #eaeaea;
+  --headers-base-color: #373a3f;
+  --hover-bg: #f4f2ec;
+  --articles-text: #8a90a6;
+  --login-button: #0e4763;
+  --pricing-bg: #245782;
+  --search-white: #f7f8f8;
+  --search-autocomplete-color: #edf1f0;
+  --search-automoplete-message-color: #d8d8d8;
+  --search-list-color: #ebefef;
+}

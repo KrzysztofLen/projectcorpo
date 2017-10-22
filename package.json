@@ -25,7 +25,7 @@
   "author": "Krzysztof Len",
   "license": "ISC",
   "dependencies": {
-    "whatwg-fetch": "1.0.0"
+    "access-sniff": "^3.0.1"
   },
   "nyc": {
     "require": [
@@ -58,10 +58,9 @@
     "eslint-watch": "^3.1.2",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^0.11.2",
-    "html5-lint": "^0.3.0",
     "html-webpack-plugin": "^2.30.1",
+    "html5-lint": "^0.3.0",
     "image-webpack-loader": "^3.3.1",
-    "isparta": "^4.0.0",
     "istanbul": "^1.0.0-alpha",
     "istanbul-instrumenter-loader": "^3.0.0",
     "jsdom": "9.8.0",
@@ -86,8 +85,5 @@
     "uglifyjs-webpack-plugin": "^0.4.6",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
-  },
-  "dependencies": {
-    "access-sniff": "^3.0.1"
   }
 }
